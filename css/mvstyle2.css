@@ -181,6 +181,27 @@ footer {text-align: center;
     font-size: 0.707em;
     padding: 2em 0 4em 0; }
 
+/*Floating Back-To-Top Button*/
+    #myBtn {
+        position: fixed;
+        bottom: 10px;
+        float: right;
+        right: 18.5%;
+        left: 77.25%;
+        max-width: 60px;
+        width: 100%;
+        font-size: 50px;
+        border-color: #fafafa;
+        background-color: #FF6545;
+        padding: .3px;
+        border-radius: 8px;
+
+    }
+/*On Hover Color Change*/
+    #myBtn:hover {
+        background-color: burlywood;
+    }
+
 
 
         
