@@ -145,6 +145,7 @@ img {
     opacity: 0.5;
     border: none;
     
+    
 }
 
 .connections a:hover img {
@@ -165,7 +166,7 @@ nav {
     margin: 0;
     width: 100%;
     background-color: #FF4A16;
-    padding: .1em 0;
+    padding: 0.03em 0;
     font-size: .8em;
     opacity: 100%;
 }
@@ -178,7 +179,7 @@ nav ul {
 
 nav ul li {
     display: inline;
-    margin: 20px;
+    margin: 85px;
     
 }
 
@@ -234,18 +235,21 @@ footer {text-align: center;
         left: 77.25%;
         max-width: 60px;
         width: 100%;
-        font-size: 50px;
+        font-size: 48px;
         border-color: #FF6545;
         background-color: #FF6545;
         padding: .3px;
         border-radius: 8px;
         z-index: 99; 
+        color: white;
     }
 /*On Hover Color Change*/
     #myBtn:hover {
         background-color: burlywood;
         
     }
+
+#myBtn a {text-decoration: none; }
 
 
 /*------FOOTER----*/
