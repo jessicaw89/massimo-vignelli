@@ -12,8 +12,8 @@ body {
     margin: auto;
     background: #fafafa;
     color: #333;
+    font-family: 'Raleway', sans-serif;
     font-family: 'Alata', sans-serif;
-    font-family: 'Playfair Display SC', serif;
     font-family: 'Hammersmith One', sans-serif;
 
 }
@@ -26,7 +26,7 @@ h1 {
     color: #fafafa;
     text-align: center;
     font-family: 'Hammersmith One', sans-serif;
- 
+    font-size: 2.441em;
 }
 
 
@@ -37,7 +37,7 @@ h2 {font-weight: normal;
     text-align: center;
     padding: .1em;
     margin: auto;
-    font-size: 1.999em;  
+ 
     max-width: 700px;
 }
         
@@ -46,7 +46,9 @@ h3, {
     font-weight: normal;
     color: #FF6545;
     text-align: left;
+    font-size: 1.953em; 
 }
+
 
 
 h4 {
@@ -56,11 +58,12 @@ h4 {
 }
 
 
-p{font-family: 'Alata', sans-serif;}
+p{font-family: 'Raleway', sans-serif;}
 
 p, blockquote {
     margin-bottom: 1em;
     line-height: 1.4em;
+    font-family: 'Raleway', sans-serif;
 }
 
 h1 {font-size: 2.827em;
@@ -69,12 +72,12 @@ h1 {font-size: 2.827em;
     }
 
 
-h3 {font-size: 1.414em;
+h3 {font-size: 1.500em;
     margin-bottom: 1.5em; 
     
 }
 
-h4 {font-size: 1.521em;
+h4 {font-size: 1.300em;
     margin-bottom: 1.5em; 
     
 }
@@ -88,14 +91,14 @@ img {
     display: inline-block;
 }
 
-/* Three image containers (use 25% for four, and 50% for two, etc) */
+
 .column {
   float: left;
   width: 33.33%;
   padding: 4px;
 }
 
-/* Clear floats after image containers */
+
 .row:after {
   content: "";
   clear: both;
@@ -162,24 +165,27 @@ img {
 nav {
     position: fixed;
     top: 0;
-    
+    left:0;
     margin: 0;
     width: 100%;
     background-color: #FF4A16;
-    padding: 0.03em 0;
-    font-size: .8em;
-    opacity: 100%;
+    padding: 1em 0;
+    font-size: .75em;
+
+    
 }
 
 nav ul {
     text-align: center;
     text-transform: uppercase;
     letter-spacing: 1px;
+    position: sticky;
 }
 
 nav ul li {
     display: inline;
-    margin: 35px;
+    margin: 45px;
+    align-content: center;
     
 }
 
@@ -191,6 +197,8 @@ nav a:hover{
     border-bottom: none;
     color: #FFE882;
 }
+
+
 
 footer {text-align: center;
     font-size: 0.707em;
@@ -219,9 +227,6 @@ header {
 
 
 
-footer {text-align: center;
-    font-size: 0.707em;
-    padding: 2em 0 4em 0; }
 
 /*--------TOP BUTTON ---------*/
 
@@ -242,6 +247,8 @@ footer {text-align: center;
         border-radius: 8px;
         z-index: 99; 
         color: white;
+        
+        
     }
 /*On Hover Color Change*/
     #myBtn:hover {
